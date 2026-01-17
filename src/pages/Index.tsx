@@ -117,80 +117,80 @@ const translations = {
 const mockMovies: Movie[] = [
   {
     id: 1,
-    title: 'Космическая одиссея',
-    titleEn: 'Space Odyssey',
-    description: 'Эпическое путешествие через галактику',
-    descriptionEn: 'Epic journey across the galaxy',
-    thumbnail: 'https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=800',
-    year: 2023,
-    rating: 8.5,
-    duration: '2ч 15м',
+    title: 'Очень странные дела',
+    titleEn: 'Stranger Things',
+    description: 'Группа друзей сталкивается с загадочными сверхъестественными силами',
+    descriptionEn: 'A group of friends encounter mysterious supernatural forces',
+    thumbnail: 'https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=800',
+    year: 2016,
+    rating: 8.7,
+    duration: '51 мин',
     category: 'scifi',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
   },
   {
     id: 2,
-    title: 'Последний герой',
-    titleEn: 'The Last Hero',
-    description: 'Битва за будущее человечества',
-    descriptionEn: 'Battle for the future of humanity',
-    thumbnail: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800',
-    year: 2024,
-    rating: 9.1,
-    duration: '2ч 30м',
-    category: 'action',
+    title: 'Оно',
+    titleEn: 'IT',
+    description: 'Группа детей противостоит злобному клоуну, терроризирующему их город',
+    descriptionEn: 'A group of kids face an evil clown terrorizing their town',
+    thumbnail: 'https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=800',
+    year: 2017,
+    rating: 7.3,
+    duration: '2ч 15м',
+    category: 'thriller',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
   },
   {
     id: 3,
-    title: 'Тени прошлого',
-    titleEn: 'Shadows of the Past',
-    description: 'Психологический триллер о памяти',
-    descriptionEn: 'Psychological thriller about memory',
-    thumbnail: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800',
-    year: 2023,
-    rating: 8.3,
-    duration: '1ч 55м',
+    title: 'Адское лето',
+    titleEn: 'Fear Street',
+    description: 'Серия убийств раскрывает мрачную историю города',
+    descriptionEn: 'A series of murders reveals the dark history of a town',
+    thumbnail: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800',
+    year: 2021,
+    rating: 6.7,
+    duration: '1ч 47м',
     category: 'thriller',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4'
   },
   {
     id: 4,
-    title: 'Смех сквозь слёзы',
-    titleEn: 'Laughter Through Tears',
-    description: 'Трогательная комедия о жизни',
-    descriptionEn: 'Touching comedy about life',
-    thumbnail: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800',
-    year: 2024,
-    rating: 7.8,
-    duration: '1ч 40м',
-    category: 'comedy',
+    title: 'Пятница 13',
+    titleEn: 'Friday the 13th',
+    description: 'Легендарный хоррор о маньяке с хоккейной маской',
+    descriptionEn: 'Legendary horror about a maniac with a hockey mask',
+    thumbnail: 'https://images.unsplash.com/photo-1540060577131-5b4cd0e0c6f7?w=800',
+    year: 1980,
+    rating: 6.4,
+    duration: '1ч 35м',
+    category: 'thriller',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4'
   },
   {
     id: 5,
-    title: 'Путь домой',
-    titleEn: 'The Way Home',
-    description: 'Драма о семейных ценностях',
-    descriptionEn: 'Drama about family values',
-    thumbnail: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800',
-    year: 2023,
-    rating: 8.9,
-    duration: '2ч 5м',
-    category: 'drama',
+    title: 'Такси',
+    titleEn: 'Taxi',
+    description: 'Бывший таксист помогает полицейской ловить бандитов',
+    descriptionEn: 'A former taxi driver helps a police officer catch criminals',
+    thumbnail: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800',
+    year: 1998,
+    rating: 7.0,
+    duration: '1ч 26м',
+    category: 'action',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4'
   },
   {
     id: 6,
-    title: 'Квантовый скачок',
-    titleEn: 'Quantum Leap',
-    description: 'Научная фантастика о параллельных мирах',
-    descriptionEn: 'Sci-fi about parallel worlds',
-    thumbnail: 'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800',
-    year: 2024,
-    rating: 8.7,
-    duration: '2ч 20м',
-    category: 'scifi',
+    title: 'Игра в кальмара',
+    titleEn: 'Squid Game',
+    description: 'Люди в отчаянии участвуют в смертельных играх за огромный приз',
+    descriptionEn: 'Desperate people participate in deadly games for a huge prize',
+    thumbnail: 'https://images.unsplash.com/photo-1533158326339-7f3cf2404354?w=800',
+    year: 2021,
+    rating: 8.0,
+    duration: '1ч 00м',
+    category: 'thriller',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
   }
 ];
@@ -299,13 +299,13 @@ export default function Index() {
   const historyMovies = mockMovies.filter(movie => watchHistory.includes(movie.id));
 
   return (
-    <div className={`min-h-screen bg-background transition-all duration-300 font-size-${settings.fontSize}`}>
+    <div className="min-h-screen bg-background transition-all duration-300" style={{ fontSize: settings.fontSize === 'sm' ? '14px' : settings.fontSize === 'lg' ? '18px' : '16px' }}>
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-4">
             <div className="flex items-center gap-8">
               <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                StreamFlix
+                Weedmovie
               </h1>
               <div className="hidden md:flex items-center gap-6">
                 <button
@@ -610,6 +610,39 @@ function VideoPlayer({ movie }: { movie: Movie }) {
   const [volume, setVolume] = useState([80]);
   const [playbackRate, setPlaybackRate] = useState('1');
   const [quality, setQuality] = useState('auto');
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [progress, setProgress] = useState([0]);
+
+  useEffect(() => {
+    const video = document.querySelector('video');
+    if (video) {
+      video.playbackRate = parseFloat(playbackRate);
+      video.volume = volume[0] / 100;
+    }
+  }, [playbackRate, volume]);
+
+  const handleTimeUpdate = (e: React.SyntheticEvent<HTMLVideoElement>) => {
+    const video = e.currentTarget;
+    setCurrentTime(video.currentTime);
+    setDuration(video.duration);
+    setProgress([video.currentTime]);
+  };
+
+  const handleProgressChange = (value: number[]) => {
+    const video = document.querySelector('video');
+    if (video) {
+      video.currentTime = value[0];
+      setProgress(value);
+    }
+  };
+
+  const formatTime = (seconds: number) => {
+    if (isNaN(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
 
   return (
     <div className="relative bg-black aspect-video group">
@@ -620,13 +653,25 @@ function VideoPlayer({ movie }: { movie: Movie }) {
         autoPlay
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
+        onTimeUpdate={handleTimeUpdate}
         style={{ 
-          objectFit: 'contain',
-          WebkitPlaybackRate: parseFloat(playbackRate)
+          objectFit: 'contain'
         }}
       />
       
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div className="mb-4 flex items-center gap-3 text-white text-sm">
+          <span>{formatTime(currentTime)}</span>
+          <Slider
+            value={progress}
+            onValueChange={handleProgressChange}
+            max={duration || 100}
+            step={0.1}
+            className="flex-1"
+          />
+          <span>{formatTime(duration)}</span>
+        </div>
+        
         <div className="flex items-center gap-4">
           <Button
             size="icon"
@@ -646,7 +691,7 @@ function VideoPlayer({ movie }: { movie: Movie }) {
             <Icon name={playing ? 'Pause' : 'Play'} size={24} />
           </Button>
 
-          <div className="flex items-center gap-3 flex-1">
+          <div className="flex items-center gap-3">
             <Icon name="Volume2" size={20} className="text-white" />
             <Slider
               value={volume}
