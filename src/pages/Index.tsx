@@ -586,9 +586,9 @@ export default function Index() {
         </SheetContent>
       </Sheet>
 
-      <Dialog open={showPlayer} onOpenChange={setShowPlayer}>
-        <DialogContent className="max-w-6xl w-full p-0 bg-black border-none">
-          {currentMovie && (
+      {currentMovie && (
+        <Dialog open={showPlayer} onOpenChange={setShowPlayer}>
+          <DialogContent className="max-w-6xl w-full p-0 bg-black border-none">
             <div className="relative">
               <button
                 onClick={() => setShowPlayer(false)}
@@ -598,9 +598,9 @@ export default function Index() {
               </button>
               <VideoPlayer movie={currentMovie} />
             </div>
-          )}
-        </DialogContent>
-      </Dialog>
+          </DialogContent>
+        </Dialog>
+      )}
     </div>
   );
 }
